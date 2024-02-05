@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+  padding: 24px;
+  display: grid;
+  grid-template: 180px 180px auto / repeat(3, 1fr);
+  gap: 12px;
+  background: linear-gradient(-45deg, var(--black), var(--dark-grey), var(--black));
+}
+
+.big-text{
+  font-size: 84px;
+  font-weight: 700;
+}

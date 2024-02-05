@@ -1,0 +1,5 @@
+.widget{
+    background-color: var(--light-grey);
+    border-radius: 16px;
+    padding: 12px;
+}
