@@ -1,0 +1,33 @@
+.wgclimate-now{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.wgclimate-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.wgclimate-detail{
+    display: flex;
+    gap: 16px;
+}
+
+.wgclimate-nextdays{
+    width: 100%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+}
+
+.wgclimate-nextday{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}

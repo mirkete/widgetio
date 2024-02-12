@@ -28,11 +28,9 @@ export function WidgetTime(){
     const minutes = ("0" + date.getMinutes()).slice(-2)
 
     return(
-        <WidgetCapsule>
-            <div className="wgtime-div">
+        <WidgetCapsule style={{justifyContent:"center", gap: 0}}>
                 <p>{day}, {dateNumber} de {month} de {year}</p>
                 <h1 className="big-text">{hour}:{minutes}</h1>
-            </div>
         </WidgetCapsule>
     )
 }

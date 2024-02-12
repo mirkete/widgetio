@@ -6,7 +6,12 @@
   height: 100vh;
   padding: 24px;
   display: grid;
-  grid-template: 180px 180px auto / repeat(3, 1fr);
+  grid-template: 1fr 1fr 1fr / 360px repeat(3, 1fr);
+  grid-template-areas: 
+  "top-left top-midleft top-midright top-right"
+  "medium-left bottom-midleft bottom-midright bottom-right"
+  "bottom-left bottom-midleft bottom-midright bottom-right"
+  ;
   gap: 12px;
   background: linear-gradient(-45deg, var(--black), var(--dark-grey), var(--black));
 }
@@ -14,4 +19,13 @@
 .big-text{
   font-size: 84px;
   font-weight: 700;
+}
+
+.medium-text{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.small-text{
+  font-size: 12px;
 }
