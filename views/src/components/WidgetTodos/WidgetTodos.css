@@ -1,0 +1,44 @@
+.wgtasks-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1 0 60%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.wgtasks-task{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.wgtasks-task input[type="checkbox"]{
+    accent-color: var(--light-grey);
+}
+
+.wgtasks-newtask{
+    align-self: stretch;
+    display: flex;
+    justify-content: stretch;
+    gap: 12px;
+}
+
+.wgtasks-newtask button{
+    background:none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.wgtasks-input{
+    flex: 1;
+    font-size: 14px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+

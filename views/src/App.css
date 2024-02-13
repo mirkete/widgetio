@@ -9,8 +9,8 @@
   grid-template: 1fr 1fr 1fr / 360px repeat(3, 1fr);
   grid-template-areas: 
   "top-left top-midleft top-midright top-right"
-  "medium-left bottom-midleft bottom-midright bottom-right"
-  "bottom-left bottom-midleft bottom-midright bottom-right"
+  "medium-left top-midleft top-midright bottom-right"
+  "bottom-left bottom-mid bottom-mid bottom-right"
   ;
   gap: 12px;
   background: linear-gradient(-45deg, var(--black), var(--dark-grey), var(--black));

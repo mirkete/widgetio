@@ -17,6 +17,10 @@ html, body{
     color: white;
 }
 
+input{
+    font-family: 'Orbitron' , sans-serif;
+}
+
 h1, h2, p{
     margin: 0;
 }
